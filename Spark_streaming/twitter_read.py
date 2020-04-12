@@ -42,10 +42,10 @@ def send_data(c_socket):
 if __name__ == '__main__':
     s = socket.socket()
     host = '127.0.0.1'
-    port = 5555
+    port = 9999
     s.bind((host,port))
     
-    print('Listening to port: 5555')
+    print('Listening to port: 9999')
     
     s.listen(5)
     c,addr = s.accept() 
